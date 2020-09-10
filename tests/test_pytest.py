@@ -1,6 +1,6 @@
 import pytest
 from hangman import Hangman, WORDS, ATTEMPTS
-import mock
+import mock 
 
 def test_init():
     hangman = Hangman()

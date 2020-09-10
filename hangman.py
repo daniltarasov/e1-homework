@@ -14,7 +14,7 @@ class Hangman():
         self.is_lost = False
         self.is_won = False
 
-    def input_letter(self):
+    def input_letter(self): 
         while True:
             letter = input("Введите букву латинского алфавита: ")
             if self.valid_letter(letter):
@@ -57,7 +57,7 @@ class Hangman():
             return True
 
     def play(self):
-        # print(self.secret_word)
+        # print(self.secret_word) 
         print(f'Угадайте слово. У вас {ATTEMPTS} попытки.')
         while not self.end_game():
             print(' '.join(self.gamer_word))
