@@ -9,5 +9,5 @@
 2. cd e1-homework
 3. Cоздать виртуальное окружение python -m venv venv , активировать.
 3. pip install -r requirements.txt
-4. Установить PYTHONPATH: export PYTHONPATH=${PWD} (Linux) или set PYTHONPATH=%PYTHONPATH%;<текущий каталог> 
+4. Установить PYTHONPATH: export PYTHONPATH=${PWD} (Linux) или set PYTHONPATH=%PYTHONPATH%;<текущий каталог> (windows)
 5. Запустить тесты:  pytest --cov=. tests/test_pytest.py
